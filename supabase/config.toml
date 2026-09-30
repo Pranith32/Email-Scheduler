@@ -1,0 +1,7 @@
+[functions.process-emails]
+verify_jwt = false
+entrypoint = "./functions/process-emails/index.ts"
+
+[functions.slack-connect]
+verify_jwt = true
+entrypoint = "./functions/slack-connect/index.ts"
